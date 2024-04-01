@@ -1,0 +1,13 @@
+C:\Users\Rizki\source\repos\Rovision\Rovision\bin\x64\Debug\Rovision.exe.config
+C:\Users\Rizki\source\repos\Rovision\Rovision\bin\x64\Debug\Rovision.exe
+C:\Users\Rizki\source\repos\Rovision\Rovision\bin\x64\Debug\Rovision.pdb
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.Form1.resources
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.Properties.Resources.resources
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.csproj.GenerateResource.cache
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.csproj.CoreCompileInputs.cache
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.csproj.CopyComplete
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.exe
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.pdb
+C:\Users\Rizki\source\repos\Rovision\Rovision\bin\x64\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.csproj.AssemblyReference.cache
+C:\Users\Rizki\source\repos\Rovision\Rovision\obj\x64\Debug\Rovision.csproj.Fody.CopyLocal.cache
