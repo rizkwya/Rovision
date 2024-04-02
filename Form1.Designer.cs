@@ -37,6 +37,9 @@ namespace Rovision
             this.siticoneDragControl1 = new Siticone.UI.WinForms.SiticoneDragControl(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.siticoneButton1 = new Siticone.UI.WinForms.SiticoneButton();
+            this.siticoneButton2 = new Siticone.UI.WinForms.SiticoneButton();
+            this.siticoneButton3 = new Siticone.UI.WinForms.SiticoneButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -100,7 +103,7 @@ namespace Rovision
             this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneButton1.HoveredState.Parent = this.siticoneButton1;
-            this.siticoneButton1.Location = new System.Drawing.Point(257, 411);
+            this.siticoneButton1.Location = new System.Drawing.Point(257, 378);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
             this.siticoneButton1.Size = new System.Drawing.Size(179, 27);
@@ -108,20 +111,63 @@ namespace Rovision
             this.siticoneButton1.Text = "Install";
             this.siticoneButton1.Click += new System.EventHandler(this.siticoneButton1_Click);
             // 
+            // siticoneButton2
+            // 
+            this.siticoneButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.siticoneButton2.CheckedState.Parent = this.siticoneButton2;
+            this.siticoneButton2.CustomImages.Parent = this.siticoneButton2;
+            this.siticoneButton2.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton2.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
+            this.siticoneButton2.Location = new System.Drawing.Point(257, 411);
+            this.siticoneButton2.Name = "siticoneButton2";
+            this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
+            this.siticoneButton2.Size = new System.Drawing.Size(179, 27);
+            this.siticoneButton2.TabIndex = 3;
+            this.siticoneButton2.Text = "Uninstall";
+            this.siticoneButton2.Click += new System.EventHandler(this.siticoneButton2_Click);
+            // 
+            // siticoneButton3
+            // 
+            this.siticoneButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.siticoneButton3.CheckedState.Parent = this.siticoneButton3;
+            this.siticoneButton3.CustomImages.Parent = this.siticoneButton3;
+            this.siticoneButton3.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton3.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton3.HoveredState.Parent = this.siticoneButton3;
+            this.siticoneButton3.Location = new System.Drawing.Point(257, 41);
+            this.siticoneButton3.Name = "siticoneButton3";
+            this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
+            this.siticoneButton3.Size = new System.Drawing.Size(179, 27);
+            this.siticoneButton3.TabIndex = 4;
+            this.siticoneButton3.Text = "Discord";
+            this.siticoneButton3.Click += new System.EventHandler(this.siticoneButton3_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(448, 450);
+            this.Controls.Add(this.siticoneButton3);
+            this.Controls.Add(this.siticoneButton2);
             this.Controls.Add(this.siticoneButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Rovision Preset Installer";
+            this.Text = "Rovision";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -136,6 +182,9 @@ namespace Rovision
         private Siticone.UI.WinForms.SiticoneDragControl siticoneDragControl1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Siticone.UI.WinForms.SiticoneButton siticoneButton1;
+        private Siticone.UI.WinForms.SiticoneButton siticoneButton2;
+        private Siticone.UI.WinForms.SiticoneButton siticoneButton3;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

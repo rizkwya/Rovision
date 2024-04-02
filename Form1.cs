@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Net;
+using System.Diagnostics;
 
 namespace Rovision
 {
@@ -104,6 +105,63 @@ namespace Rovision
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void siticoneButton2_Click(object sender, EventArgs e)
+        {
+            string robloxDirectory = FindRobloxVersionDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Roblox\\Versions\\");
+
+            try
+            {
+                string clientSettingsFolderPath = Path.Combine(robloxDirectory, "ClientSettings");
+                if (Directory.Exists(clientSettingsFolderPath))
+                {
+                    Directory.Delete(clientSettingsFolderPath, true);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            string programFilesDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles));
+
+            try
+            {
+                string anselFolderPath = Path.Combine(programFilesDirectory, "NVIDIA Corporation", "Ansel");
+                if (Directory.Exists(anselFolderPath))
+                {
+                    DeleteDirectory(anselFolderPath);
+                }
+                MessageBox.Show("Preset Succesfully Uninstalled!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void siticoneButton3_Click(object sender, EventArgs e)
+        {
+            string urlDikorr = "https://discord.com/invite/8BNhyDZ";
+            try
+            {
+                Process.Start(urlDikorr);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Opacity += .2;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
         }
     }
 }
