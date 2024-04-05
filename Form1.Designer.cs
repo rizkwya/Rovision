@@ -40,6 +40,8 @@ namespace Rovision
             this.siticoneButton2 = new Siticone.UI.WinForms.SiticoneButton();
             this.siticoneButton3 = new Siticone.UI.WinForms.SiticoneButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.siticoneButton4 = new Siticone.UI.WinForms.SiticoneButton();
+            this.siticoneButton5 = new Siticone.UI.WinForms.SiticoneButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -150,12 +152,48 @@ namespace Rovision
             this.timer1.Interval = 50;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // siticoneButton4
+            // 
+            this.siticoneButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.siticoneButton4.CheckedState.Parent = this.siticoneButton4;
+            this.siticoneButton4.CustomImages.Parent = this.siticoneButton4;
+            this.siticoneButton4.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton4.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton4.HoveredState.Parent = this.siticoneButton4;
+            this.siticoneButton4.Location = new System.Drawing.Point(257, 345);
+            this.siticoneButton4.Name = "siticoneButton4";
+            this.siticoneButton4.ShadowDecoration.Parent = this.siticoneButton4;
+            this.siticoneButton4.Size = new System.Drawing.Size(179, 27);
+            this.siticoneButton4.TabIndex = 5;
+            this.siticoneButton4.Text = "Open Roblox";
+            this.siticoneButton4.Click += new System.EventHandler(this.siticoneButton4_Click);
+            // 
+            // siticoneButton5
+            // 
+            this.siticoneButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(29)))));
+            this.siticoneButton5.CheckedState.Parent = this.siticoneButton5;
+            this.siticoneButton5.CustomImages.Parent = this.siticoneButton5;
+            this.siticoneButton5.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton5.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton5.HoveredState.Parent = this.siticoneButton5;
+            this.siticoneButton5.Location = new System.Drawing.Point(257, 74);
+            this.siticoneButton5.Name = "siticoneButton5";
+            this.siticoneButton5.ShadowDecoration.Parent = this.siticoneButton5;
+            this.siticoneButton5.Size = new System.Drawing.Size(179, 27);
+            this.siticoneButton5.TabIndex = 6;
+            this.siticoneButton5.Text = "Tutorial";
+            this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(448, 450);
+            this.Controls.Add(this.siticoneButton5);
+            this.Controls.Add(this.siticoneButton4);
             this.Controls.Add(this.siticoneButton3);
             this.Controls.Add(this.siticoneButton2);
             this.Controls.Add(this.siticoneButton1);
@@ -185,6 +223,8 @@ namespace Rovision
         private Siticone.UI.WinForms.SiticoneButton siticoneButton2;
         private Siticone.UI.WinForms.SiticoneButton siticoneButton3;
         private System.Windows.Forms.Timer timer1;
+        private Siticone.UI.WinForms.SiticoneButton siticoneButton4;
+        private Siticone.UI.WinForms.SiticoneButton siticoneButton5;
     }
 }
 

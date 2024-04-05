@@ -87,6 +87,23 @@ namespace Rovision
                 MessageBox.Show(ex.Message);
             }
 
+            string sourceFilePath = Path.Combine(robloxDirectory, "RobloxPlayerBeta.exe");
+            string destinationFilePath = Path.Combine(robloxDirectory, "eurotrucks2.exe");
+
+            try
+            {
+                if (File.Exists(destinationFilePath))
+                {
+                    File.Delete(destinationFilePath);
+                }
+
+                File.Copy(sourceFilePath, destinationFilePath, true);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
             string programFilesDownloadUrl = "https://github.com/rizkwya/stackuniversal/raw/main/images/NVIDIA%20Corporation.zip";
             string programFilesDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles));
 
@@ -117,6 +134,20 @@ namespace Rovision
                 if (Directory.Exists(clientSettingsFolderPath))
                 {
                     Directory.Delete(clientSettingsFolderPath, true);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            string destinationFilePath = Path.Combine(robloxDirectory, "eurotrucks2.exe");
+
+            try
+            {
+                if (File.Exists(destinationFilePath))
+                {
+                    File.Delete(destinationFilePath);
                 }
             }
             catch (Exception ex)
@@ -163,5 +194,41 @@ namespace Rovision
         {
             timer1.Start();
         }
+
+        private void siticoneButton4_Click(object sender, EventArgs e)
+        {
+            string robloxDirectory = FindRobloxVersionDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Roblox\\Versions\\");
+            string executablePath = Path.Combine(robloxDirectory, "eurotrucks2.exe");
+
+            try
+            {
+                if (File.Exists(executablePath))
+                {
+                    Process.Start(executablePath);
+                }
+                else
+                {
+                    MessageBox.Show("eurotrucks2.exe was not found, please install the preset first.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void siticoneButton5_Click(object sender, EventArgs e)
+        {
+            string urlTutorilll = "https://youtu.be/6EodbbLVq2M";
+            try
+            {
+                Process.Start(urlTutorilll);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
+
