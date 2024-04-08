@@ -38,14 +38,16 @@ namespace Rovision
         private string FindRobloxVersionDirectory(string robloxDirectory)
         {
             string[] versionDirs = Directory.GetDirectories(robloxDirectory, "*", SearchOption.TopDirectoryOnly);
-            if (versionDirs.Length > 0)
+            foreach (string versionDir in versionDirs)
             {
-                return versionDirs[0];
+                string robloxPlayerPath = Path.Combine(versionDir, "RobloxPlayerBeta.exe");
+                if (File.Exists(robloxPlayerPath))
+                {
+                    return versionDir;
+                }
             }
-            else
-            {
-                return null;
-            }
+
+            return null;
         }
 
         private void DeleteDirectory(string targetDir)
@@ -231,4 +233,3 @@ namespace Rovision
         }
     }
 }
-
