@@ -1,7 +1,7 @@
 # Rovision
 Make your roblox look cool.
 
-# Requirements:
+# Requirements
 - Windows 10/11 64 Bit
 - NVIDIA Graphics Cards
 - Original Roblox Client
