@@ -3,8 +3,8 @@ Make your roblox look cool.
 
 # Requirements
 - Windows 10/11 64 Bit
-- GeForce Experience Required
-- Original Roblox Client (https://www.roblox.com/download/client)
+- GeForce Experience
+- Original Roblox Client
 
 # Footage
 ![Euro Truck Simulator 2 Screenshot 2024 04 01 - 22 55 19 53](https://github.com/rizkwya/Rovision/assets/87561258/bb5e1dbb-b791-4fc3-977a-b1d4ff96f27c)
