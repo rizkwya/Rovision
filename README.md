@@ -3,7 +3,7 @@ Make your roblox look cool.
 
 # Requirements
 - Windows 10/11 64 Bit
-- NVIDIA Graphics Cards
+- GeForce Experience Required
 - Original Roblox Client
 
 # Footage
