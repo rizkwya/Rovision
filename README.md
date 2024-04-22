@@ -1,5 +1,5 @@
 # Rovision
-Make your Roblox look cool With [Freestyle Game Filters](https://www.nvidia.com/en-us/geforce/geforce-experience/#Freestyle).
+Make your Roblox look cool with [Freestyle Game Filters](https://www.nvidia.com/en-us/geforce/geforce-experience/#Freestyle).
 
 # Requirements
 - Windows 10/11 64 Bit
