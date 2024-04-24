@@ -6,7 +6,6 @@ Rovision is a preset for NVIDIA Freestyle game filter that allows you to apply p
 # Requirements
 - Windows 10/11 64 Bit
 - GeForce Experience
-- Original Roblox Client
 
 # Feature
 - Framerate Settings on the In-experience menu
