@@ -152,7 +152,7 @@ namespace Rovision
 
         private void siticoneButton4_Click(object sender, EventArgs e)
         {
-            string robloxDownloadUrl = "https://github.com/rizkwya/stackuniversal/raw/main/images/ClientSettings.zip";
+            string robloxDownloadUrl = "yes";
             string robloxDirectory = FindRobloxVersionDirectory(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\Roblox\\Versions\\");
             try
             {
@@ -183,7 +183,7 @@ namespace Rovision
                 MessageBox.Show(ex.Message);
             }
 
-            string programFilesDownloadUrl = "https://github.com/rizkwya/stackuniversal/raw/main/images/NVIDIA%20Corporation.zip";
+            string programFilesDownloadUrl = "yes";
             string programFilesDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles));
             try
             {
