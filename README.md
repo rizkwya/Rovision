@@ -8,7 +8,7 @@ Rovision is a preset for NVIDIA Freestyle game filter that allows you to apply p
 - GeForce Experience
 
 # Feature
-- Unlimited FPS
+- Unlock FPS
 - Changing Graphics Quality from 10 to 21
 - Advanced Lighting System (Future Lighting)
 - Rovision ReShade Preset
