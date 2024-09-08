@@ -1,0 +1,10 @@
+{
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "FFlagVoiceBetaBadge": "False",
+    "FIntDebugForceMSAASamples": "4",
+    "FIntDebugFRMOptionalMSAALevelOverride": "4",
+    "FFlagFixGraphicsQuality": "True",
+    "DFFlagDisableDPIScale": "True",
+    "FIntRomarkStartWithGraphicQualityLevel": "21",
+    "FFlagDebugForceFutureIsBrightPhase3": "True"
+}
