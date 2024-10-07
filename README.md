@@ -11,6 +11,6 @@ Rovision is a preset for NVIDIA Freestyle game filter that allows you to apply p
 - Rovision ReShade Preset
 
 # Footage
-![Euro Truck Simulator 2 Screenshot 2024 09 09 - 20 41 27 01](https://github.com/user-attachments/assets/1e5b5160-649b-4f53-8afa-fbd71a2e69b0)
-![Euro Truck Simulator 2 Screenshot 2024 09 09 - 20 50 16 54](https://github.com/user-attachments/assets/6b971b48-9a04-47fb-aac0-252225095817)
-![Euro Truck Simulator 2 Screenshot 2024 09 09 - 21 00 59 03](https://github.com/user-attachments/assets/c0fdd63a-3ac9-495e-8504-9b49f56218bb)
+![Euro Truck Simulator 2 Screenshot 2024 10 07 - 21 06 21 73](https://github.com/user-attachments/assets/fa77fdd0-6ac8-483c-a0f4-c8f11913c4cc)
+![Euro Truck Simulator 2 Screenshot 2024 10 07 - 21 07 49 98](https://github.com/user-attachments/assets/9584c837-d4fd-4392-bc71-90e9b7f1febe)
+![Euro Truck Simulator 2 Screenshot 2024 10 07 - 21 32 35 57](https://github.com/user-attachments/assets/99bdbcd5-185f-4978-b730-f26759f86ede)
