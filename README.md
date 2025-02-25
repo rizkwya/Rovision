@@ -1,10 +1,10 @@
 # Rovision
-Make your Roblox look cool with [Freestyle Game Filters](https://www.nvidia.com/en-us/geforce/geforce-experience/#Freestyle).
+Make your Roblox look cool with [Freestyle Game Filters](https://www.nvidia.com/en-us/software/nvidia-app/#freestyle).
 
 Rovision is a preset for NVIDIA Freestyle game filter that allows you to apply post-processing filters on your games while you play. Change the look and mood of your game with tweaks to color or saturation, or apply dramatic post-process filters like HDR.
 
 # Requirements
-- [GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience) / [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app)
+- [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app)
 
 # Feature
 - Advanced Lighting System (Future Lighting)
